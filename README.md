@@ -1,6 +1,8 @@
 # Scam Detection AI  
 This project detects scam messages using NLP techniques.
 
+
+
 ## Features  
 - Detects scam keywords  
 - Uses NLTK for text processing  

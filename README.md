@@ -14,7 +14,42 @@ AI-Scam-Shield is a machine learning-based scam detection system that analyzes t
 ## Tech Stack
 Programming Language: Python
 
-Libraries Used:
+## Flow Chart
+
+                 +--------------------+
+                 |  User Inputs Text  |
+                 +--------------------+
+                           |
+                           v
+                 +--------------------+
+                 | Text Preprocessing |
+                 | (Cleaning, NLP)    |
+                 +--------------------+
+                           |
+                           v
+                 +--------------------+
+                 | Feature Extraction |
+                 | (Keywords, N-Grams)|
+                 +--------------------+
+                           |
+                           v
+                 +----------------------+
+                 |  Scam Detection Model |
+                 | (ML Classification)   |
+                 +----------------------+
+                           |
+                +-----------------+
+                |  Is it a Scam?  |
+                +-----------------+
+                  /           \
+                 /             \
+     +----------------+  +----------------+
+     |  Scam Detected |  |  Safe Message  |
+     |   🚨 Alert!   |  |   ✅ No Scam   |
+     +----------------+  +----------------+
+
+
+## Libraries Used:
 - NLTK (Natural Language Toolkit) – For text preprocessing
 - Scikit-learn – For training the machine learning model
 - Pandas – For data handling and analysis

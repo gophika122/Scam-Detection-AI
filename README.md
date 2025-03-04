@@ -41,12 +41,12 @@ Programming Language: Python
                    +-----------------+
                    |  Is it a Scam?  |
                    +-----------------+
-                  /             \
-                 /               \
-     +----------------+     +----------------+
-     |  Scam Detected |     |  Safe Message  |
-     |   🚨 Alert!   |     |   ✅ No Scam   |
-     +----------------+     +----------------+
+                     /             \
+                    /               \
+       +----------------+        +----------------+
+       |  Scam Detected |        |  Safe Message  |
+       |   🚨 Alert!   |         |  ✅ No Scam   |
+       +----------------+        +----------------+
 
 
 ## Libraries Used:

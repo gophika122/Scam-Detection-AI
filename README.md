@@ -1,5 +1,5 @@
 # Scam Detection AI  
-This project detects scam messages using NLP techniques.  
+This project detects scam messages using NLP techniques.
 
 ## Features  
 - Detects scam keywords  
@@ -17,3 +17,4 @@ git clone https://github.com/gophika122/Scam-Detection-AI.git
 cd Scam-Detection-AI
 pip install -r requirements.txt
 python scam_detection.py
+

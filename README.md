@@ -34,19 +34,19 @@ Programming Language: Python
                            |
                            v
                  +----------------------+
-                 |  Scam Detection Model |
-                 | (ML Classification)   |
+                 | Scam Detection Model |
+                 | (ML Classification)  |
                  +----------------------+
-                           |
-                +-----------------+
-                |  Is it a Scam?  |
-                +-----------------+
-                  /           \
-                 /             \
-     +----------------+  +----------------+
-     |  Scam Detected |  |  Safe Message  |
-     |   🚨 Alert!   |  |   ✅ No Scam   |
-     +----------------+  +----------------+
+                            |
+                   +-----------------+
+                   |  Is it a Scam?  |
+                   +-----------------+
+                  /             \
+                 /               \
+     +----------------+     +----------------+
+     |  Scam Detected |     |  Safe Message  |
+     |   🚨 Alert!   |     |   ✅ No Scam   |
+     +----------------+     +----------------+
 
 
 ## Libraries Used:

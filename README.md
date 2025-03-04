@@ -32,8 +32,5 @@ cd Scam-Detection-AI
 pip install -r requirements.txt
 python scam_detection.py
 
-## License
-- This project is open-source under the MIT License.
-
 
 
